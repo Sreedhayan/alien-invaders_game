@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <target name="windows">
+    <taskdef classname="net.sf.launch4j.ant.Launch4jTask" classpath="/snap/processing/9/opt/processing/lib/app/resources/modes/java/application/launch4j/launch4j.jar:/snap/processing/9/opt/processing/lib/app/resources/modes/java/application/launch4j/lib/xstream.jar" name="launch4j"/>
+    <launch4j configFile="/home/sreedhayan/sketchbook/spaceinvaders/windows-amd64/launch4j-config.xml"/>
+  </target>
+</project>

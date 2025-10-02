@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <headerType>gui</headerType>
+  <dontWrapJar>true</dontWrapJar>
+  <downloadUrl>https://adoptium.net/</downloadUrl>
+  <outfile>/home/sreedhayan/sketchbook/spaceinvaders/windows-amd64/spaceinvaders.exe</outfile>
+  <icon>/snap/processing/9/opt/processing/lib/app/resources/modes/java/application/application.ico</icon>
+  <classPath>
+    <mainClass>spaceinvaders</mainClass>
+    <cp>lib/spaceinvaders.jar</cp>
+    <cp>lib/annotations-13.0.jar</cp>
+    <cp>lib/antlr-2.7.7.jar</cp>
+    <cp>lib/core-4.4.4.jar</cp>
+    <cp>lib/gluegen-rt-2.5.0-natives-android-aarch64.jar</cp>
+    <cp>lib/gluegen-rt-2.5.0-natives-linux-aarch64.jar</cp>
+    <cp>lib/gluegen-rt-2.5.0-natives-linux-amd64.jar</cp>
+    <cp>lib/gluegen-rt-2.5.0-natives-linux-armv6hf.jar</cp>
+    <cp>lib/gluegen-rt-2.5.0-natives-macosx-universal.jar</cp>
+    <cp>lib/gluegen-rt-2.5.0-natives-windows-amd64.jar</cp>
+    <cp>lib/gluegen-rt-2.5.0.jar</cp>
+    <cp>lib/gluegen-rt-main-2.5.0.jar</cp>
+    <cp>lib/jogl-all-2.5.0-natives-android-aarch64.jar</cp>
+    <cp>lib/jogl-all-2.5.0-natives-linux-aarch64.jar</cp>
+    <cp>lib/jogl-all-2.5.0-natives-linux-amd64.jar</cp>
+    <cp>lib/jogl-all-2.5.0-natives-linux-armv6hf.jar</cp>
+    <cp>lib/jogl-all-2.5.0-natives-macosx-universal.jar</cp>
+    <cp>lib/jogl-all-2.5.0-natives-windows-amd64.jar</cp>
+    <cp>lib/jogl-all-2.5.0.jar</cp>
+    <cp>lib/jogl-all-main-2.5.0.jar</cp>
+    <cp>lib/kotlin-stdlib-2.0.20.jar</cp>
+  </classPath>
+  <jre>
+    <path>%PATH%</path>
+    <minVersion>17</minVersion>
+    <opt>-Djna.nosys=true</opt>
+    <opt>-Djava.library.path="%EXEDIR%\lib"</opt>
+  </jre>
+</launch4jConfig>
