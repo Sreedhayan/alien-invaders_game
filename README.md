@@ -1,4 +1,4 @@
-// Supercharged Space Invaders - FULL CODE
+// Supercharged Space Invaders 
 
 // Player
 float playerX, playerY, playerSpeed = 6;
